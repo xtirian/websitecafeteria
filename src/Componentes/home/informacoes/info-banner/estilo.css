@@ -1,0 +1,25 @@
+#info-banner {
+    height: 50vh;
+
+}
+
+.background-banner {    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.background-banner h3 {
+    background: rgb(90, 65, 35);
+    width: 500px;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+}

@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(90, 65, 35); 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.topo-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-grid img {
+    width: 75px;
+}
+
+.navigation-grid {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.navigation-links {
+    text-decoration: none;
+    color: rgb(255, 225, 195);
+    font-weight: bold;
+    text-shadow: 5px 5px 1px rgb(55, 25, 5);
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 635px) {
+    .topo-grid {
+        display: block;
+        text-align: center;
+    }
+    .navigation-grid {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 0 auto;
+        width: 350;    
+        border-top: solid 1px rgb(55, 25, 5);    
+    }
+    .navigation-links {
+        margin-right: 20px;
+    }
+
+    .topo-grid img {
+        width: 50px;
+    }
+
+}

@@ -1,0 +1,26 @@
+.rodape {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.rodape article {
+    position: fixed;
+    bottom: 60px;
+    right: 50px;    
+}
+
+.rodape-box {    
+    padding: 10px 0;    
+    text-align:center;
+}
+
+.rodape-box p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.rodape-box span {    
+    color: rgb(210, 166, 128);
+}

@@ -1,0 +1,49 @@
+#contatos-banner {
+    background-image: url(/public/assets/parallax-imagem4.png);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.contatos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#contatos-banner h2,
+.contatos-grid {
+    background: rgb(90, 65, 35);
+    width: 500px;
+    padding: 10px;
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;   
+    color: #fff;
+    font-weight: bold;
+    margin: 75px;
+}
+
+.contatos-grid p {
+    font-weight: bold;
+    margin: 15px;
+    text-shadow: -5px 8px 5px rgb(55, 25, 5);
+}
+
+@media screen and (max-width: 600px) {
+    .contatos-grid {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .contatos-grid p {
+        margin: 15px 5px;
+    }
+}

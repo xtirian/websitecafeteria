@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.limitar-secao {
+  max-width: 1040px;
+  margin: 0 auto;  
+}
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; */
+

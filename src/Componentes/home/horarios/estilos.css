@@ -1,0 +1,54 @@
+#horarios-banner {
+    height: 90vh;
+    background-image: url(/public/assets/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: top center;
+    padding: 200px 0;
+}
+
+#horarios-banner h2 {
+    color: #fff;
+    margin-bottom: 150px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 6px;
+}
+
+ul {
+    margin: 0 15px;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 15px 0;
+    font-family: 'Oswald', sans-serif;
+}
+ul li h3 {
+    width: 150px;
+}
+ul li p,
+ul li span  {
+    width: 150px;
+    text-align: right;
+}
+ul li span {
+    font-weight: bold;
+    color: rgb(210, 166, 128);
+    text-transform: uppercase;
+}
+.tarjaCinza {
+    height: 2px;
+    width: 100%;
+    background-color: #aaa;
+}
+
+@media screen and (max-width: 600px) {
+    #horarios-banner {
+        padding: 50px 0;
+    }
+}

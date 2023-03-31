@@ -1,0 +1,101 @@
+.info-texto {height: 50vh;}
+
+.info-texto-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.info-texto-div h2 {    
+    color: rgb(174, 147, 122);
+    margin-bottom: 50px;    
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.info-texto-div p {    
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 5px;
+    
+}
+
+@media screen and (max-height: 800px) {
+    .info-texto-div {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .info-texto-div h2 {    
+        color: rgb(174, 147, 122);
+        margin-bottom: 25px;    
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    .info-texto-div p {    
+        color: grey;
+        letter-spacing: 1px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 5px;
+        
+    }
+}
+
+@media screen and (max-height: 1000px) {
+    .info-texto-div {        
+        align-items: center;
+        padding: auto 0;
+    }
+    
+    .info-texto-div h2 {    
+        color: rgb(174, 147, 122);
+        margin-bottom: 25px;    
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    .info-texto-div p {    
+        color: grey;
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0 5px;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info-texto-div {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .info-texto-div h2 {    
+        color: rgb(174, 147, 122);
+        margin-bottom: 25px;    
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    .info-texto-div p {    
+        color: grey;
+        letter-spacing: 1px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 5px;
+        
+    }
+}
